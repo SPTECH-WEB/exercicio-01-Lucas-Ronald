@@ -37,5 +37,5 @@ public class Fatura {
 
     @NotBlank(message = "O Email não pode estar em branco")
     @Email(message = "O email do pagador deve ser válido")
-    private String emailContado;
+    private String emailContato;
 }
